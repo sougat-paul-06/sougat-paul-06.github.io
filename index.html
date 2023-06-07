@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sougat Paul">
+    <link rel="stylesheet" href="./styles/style.main.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> -->
+    <script src="./scripts/main.js" defer></script>
+    <!-- <link rel="icon" href="/images/favicon.ico?" type="image/x-icon"> -->
+    <title>Sougat Paul | Software Engineer and Web developer</title>
+    <!-- The design of the page is inspired by https://brittanychiang.com/ -->
+</head>
+
+<body>
+    <div class="loading-overlay">
+        <img src="./assets/logos/logo.svg" alt="Loading...">
+    </div>
+    <div class="content">
+        <nav class="nav">
+            <h1 class="nav__brand">
+                &ltSougat/&gt
+            </h1>
+            <button class="nav__toggle" id="nav-toggle">
+                <span class="nav__hamburger"></span>
+                <span class="nav__hamburger"></span>
+                <span class="nav__hamburger"></span>
+            </button>
+            <ul class="nav__links" orientation="right">
+                <li id="home-link">
+                    <a href="#home" >
+                        Home
+                    </a>
+                </li>
+                <li id="about-link">
+                    <a href="#about" >
+                        About Me
+                    </a>
+                </li>
+                <li id="experience-link">
+                    <a href="#experience">
+                        Experience
+                    </a>
+                </li>
+                <li id="projects-link">
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+                <li id="contact-link">
+                    <a href="#contact" >
+                        Get in Touch
+                    </a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1gzSWfK1vidhK7by-bSQAy50UVlJG9oac/view?usp=sharing" class="button" target="_blank">
+                        Resume
+                    </a>
+                </li>
+                <div class="nav__links__contact" id="nav-contact">
+                    <a href="https://www.linkedin.com/in/sudeep-gumaste?originalSubdomain=in">
+                        <img src="./assets/logos/linkedin.svg" alt="linkedin">
+                    </a>
+                    <a href="https://github.com/sougatpaul">
+                        <img src="./assets/logos/github-logo.svg" alt="github">
+                    </a>
+                    <!-- <a href="https://dribbble.com/sougatpaul">
+                        <img src="./assets/logos/dribbble-square-brands.svg" alt="dribbble">
+                    </a>
+                    <a href="https://codepen.io/sougatpaul">
+                        <img src="./assets/logos/codepen.svg" alt="codepen">
+                    </a>
+                    <a href="https://medium.com/@so_deep.dev">
+                        <img src="./assets/logos/medium.svg" alt="codepen"> -->
+                    </a>
+                </div>
+            </ul>
+        </nav>
+        <main>
+            <section class="home" id="home">
+                <div class="container">
+                    <h4>Hello there! My name is</h4>
+                    <h1>Sougat Paul.</h1>
+                    <h2>I am a Software Engineer and </h2>
+                    <h2>Full Stack Web Developer</h2>
+                    <p>I specialize in developing, designing and deploying elegant responsive websites and web applications</p>
+                    <button>Contact Me!</button>
+                    <div class="home__contact">
+                        <a href="https://www.linkedin.com/in/sudeep-gumaste?originalSubdomain=in">
+                            <img src="./assets/logos/linkedin.svg" alt="linkedin">
+                        </a>
+                        <a href="https://github.com/sougatpaul">
+                            <img src="./assets/logos/github-logo.svg" alt="github">
+                        </a>
+                        <!-- <a href="https://dribbble.com/sougatpaul">
+                            <img src="./assets/logos/dribbble-square-brands.svg" alt="dribbble">
+                        </a>
+                        <a href="https://codepen.io/sougatpaul">
+                            <img src="./assets/logos/codepen.svg" alt="codepen">
+                        </a>
+                        <a href="https://medium.com/@so_deep.dev">
+                            <img src="./assets/logos/medium.svg" alt="codepen">
+                        </a> -->
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <h1>About Me</h1>
+                    <div class="about__content">
+                        <div class="about__image__container">
+                            <div class="about__image__container__image">
+                                <img src="./assets/images/avatar.png" alt="avatar">
+                                </img>
+                            </div>
+                        </div>
+                        <div class="about__text">
+                            <p>Hello there! I am Sougat Paul. Building state-of-the-art, easy to use,
+                                user-friendly websites and applications is truly a passion of mine.
+                                I actively seek out new technologies and stay up-to-date on industry trends and advancements.
+                                I develop elegant and responsive frontend with optimised and modern backend.</p>
+                            <div class="about__technologies">
+                                <p>
+                                    Here's a list of technologies I've been working with recently
+                                    <div class="about__technologies__grid">
+                                        <ul>
+                                            <li>HTML and (S)CSS</li>
+                                            <li>MySQL | MongoDB</li>
+                                            <li>Git | GitHub</li>
+                                            <li>Spring Boot</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Java</li>
+                                            <li>C++</li>
+                                            <li>C</li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience" id="experience">
+                <div class="container">
+                    <h1>Experience</h1>
+                    <div class="experience__grid">
+                        <div class="experience__employers">
+                            <button class="experience__button selected">
+                                Transil Inc.
+                            </button>
+                            <button class="experience__button">
+                                Peblio.co
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <div class="container">
+                    <h1>Projects</h1>
+                    <div class="projects__project-container">
+                        <div class="project-container__image" style="background-image: url(./assets/images/project2.png);">
+                        </div>
+                        <div class="project-container__description">
+                            <div class="project-container__title">
+                                CleanKLE
+                            </div>
+                            <div class="project-container__textbox">
+                                A website for institutes where students can report issues regarding cleanliness by uploading a photo to support their claim. It also has a admin console where administrator can view the problems posted by students and marks the issues resolved once they are taken care of
+                            </div>
+                            <div class="project-container__tech">
+                                Python • Flask • MySQL • Bootstrap 4
+                            </div>
+                            <div class="project-container__links">
+                                <a href="https://github.com/sougatpaul/cleanKLE" target="_blank">
+                                    <img src="./assets/logos/github-logo.svg" alt="github">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__project-container">
+                        <div class="project-container__image" style="background-image: url(./assets/images/project1.png);">
+                        </div>
+                        <div class="project-container__description">
+                            <div class="project-container__title">
+                                FindaWall
+                            </div>
+                            <div class="project-container__textbox">
+                                A web application to search for images/wallpapers/artworks from unsplash.com contributed by various artist around the world. This application has an infinite scroll feature implemented for pagination
+                            </div>
+                            <div class="project-container__tech">
+                                React • StyledComponents • Node • Unsplash API
+                            </div>
+                            <div class="project-container__links">
+                                <a href="https://github.com/sougatpaul/unsplash-findawall" target="_blank">
+                                    <img src="./assets/logos/github-logo.svg" alt="github">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__project-container">
+                        <div class="project-container__image" style="background-image: url(./assets/images/project4.png);">
+                        </div>
+                        <div class="project-container__description">
+                            <div class="project-container__title">
+                                Todo List
+                            </div>
+                            <div class="project-container__textbox">
+                                Minimilast cross platform todo list desktop application with categorization of tasks
+                            </div>
+                            <div class="project-container__tech">
+                                React • StyledComponents • ElectronJS
+                            </div>
+                            <div class="project-container__links">
+                                <a href="https://github.com/sougatpaul/TodoList-Electron-ReactJS" target="_blank">
+                                    <img src="./assets/logos/github-logo.svg" alt="github">
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__project-container">
+                        <div class="project-container__image" style="background-image: url(./assets/images/project3.png);">
+                        </div>
+                        <div class="project-container__description">
+                            <div class="project-container__title">
+                                WarDrobe
+                            </div>
+                            <div class="project-container__textbox">
+                                A web app with elegant and responsive UI that assists users to build their personalized wardrobe with apparels from various online shopping web sites
+                            </div>
+                            <div class="project-container__tech">
+                                React • Redux • SCSS • Node • Puppeteer
+                            </div>
+                            <div class="project-container__links">
+                                <a href="https://github.com/sougatpaul/WarDrobe" target="_blank">
+                                    <img src="./assets/logos/github-logo.svg" alt="github">
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__other-projects">
+                        <h2 class="projects__other-projects__header">
+                            Other Projects
+                        </h2>
+                        <div class="projects__other-projects__folders">
+                            <div class="projects__other-projects__folder">
+                                <h3 class="projects__other-projects__folder__title">
+                                    Deno CRUD
+                                </h3>
+                                <div class="projects__other-projects__folder__link">
+                                    <a href="https://github.com/sougatpaul/deno-crud" target="_blank">
+                                        <img src="./assets/logos/github-logo.svg" alt="github">
+                                    </a>
+                                </div>
+                                <p class="projects__other-projects__folder__description">
+                                    A simple Dino sever that has Create, Read, Update and Delete functionality built into it and is connected to mongoDB.  
+                                </p>
+                                <div class="projects__other-projects__folder__tech">
+                                    Deno • Oak • MongoDB
+                                </div>
+                            </div>
+                            <div class="projects__other-projects__folder">
+                                <h3 class="projects__other-projects__folder__title">
+                                    Live Chat
+                                </h3>
+                                <div class="projects__other-projects__folder__link">
+                                    <a href="https://github.com/sougatpaul/LiveChat" target="_blank">
+                                        <img src="./assets/logos/github-logo.svg" alt="github">
+                                    </a>
+                                </div>
+                                <p class="projects__other-projects__folder__description">
+                                    A realtime chat web applications built for phones and has custom room functionality  
+                                </p>
+                                <div class="projects__other-projects__folder__tech">
+                                    Node • Express • Web Sockets • HTML • CSS
+                                </div>
+                            </div>
+                            <div class="projects__other-projects__folder">
+                                <h3 class="projects__other-projects__folder__title">
+                                    Express Auth
+                                </h3>
+                                <div class="projects__other-projects__folder__link">
+                                    <a href="https://github.com/sougatpaul/express-auth" target="_blank">
+                                        <img src="./assets/logos/github-logo.svg" alt="github">
+                                    </a>
+                                </div>
+                                <p class="projects__other-projects__folder__description">
+                                    Secure starter template for express projects requiring authorization using JSON web tokens. 
+                                </p>
+                                <div class="projects__other-projects__folder__tech">
+                                    Node • Express • MongoDB • Redis • JWT 
+                                </div>
+                            </div>                            
+                            <div class="projects__other-projects__folder">
+                                <h3 class="projects__other-projects__folder__title">
+                                    react-protected-route-component
+                                </h3>
+                                <div class="projects__other-projects__folder__link">
+                                    <a href="https://github.com/sougatpaul/react-infinitescroll-wrapper" target="_blank">
+                                        <img src="./assets/logos/github-logo.svg" alt="github">
+                                    </a>
+                                </div>
+                                <p class="projects__other-projects__folder__description">
+                                    A react component that has route protection functionality. Built on top of Route component from react-router-dom. Published on npm
+                                </p>
+                                <div class="projects__other-projects__folder__tech">
+                                    React 
+                                </div>
+                            </div>                            
+                            <div class="projects__other-projects__folder">
+                                <h3 class="projects__other-projects__folder__title">
+                                    react-infinite-scroll-wrapper
+                                </h3>
+                                <div class="projects__other-projects__folder__link">
+                                    <a href="https://github.com/sougatpaul/react-protectedroute" target="_blank">
+                                        <img src="./assets/logos/github-logo.svg" alt="github">
+                                    </a>
+                                </div>
+                                <p class="projects__other-projects__folder__description">
+                                    A react component that adds infinite scroll functionality for pagination. Published on npm
+                                </p>
+                                <div class="projects__other-projects__folder__tech">
+                                    React • IntersectionObserver
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="container">
+                    <h1>Contact Me</h1>
+                    <form class="contact__form" action="https://formspree.io/mlebywbn" method="POST">
+                        <div class="input-group">
+                            <input required type="text"  name="name">
+                            <label for="name" class="input-group__placeholder">Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input required type="text"  name="email">
+                            <label for="email" class="input-group__placeholder">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input required type="text"  name="subject">
+                            <label for="subject" class="input-group__placeholder">Subject</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea required name="description" rows="9"></textarea>
+                            <label for="subject" class="input-group__placeholder">Message</label>
+                        </div>
+                        <button class="button" type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Developed by <a href="https://github.com/sougatpaul" target="_blank">Sougat Paul</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
