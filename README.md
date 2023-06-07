@@ -1,1 +1,1 @@
-# sougat-paul-06.github.io
+# sougatpaul.github.io
