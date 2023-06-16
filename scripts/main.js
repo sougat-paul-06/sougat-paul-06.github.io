@@ -58,26 +58,20 @@ let selectedExperience = 0;
 const experiences = [
   `
     <div class="experience__title">
-        Full Stack Web developer @ <span>Transil Inc.</span>
+        Software Engineer @ <span>Société Générale</span>
     </div>
     <div class="experience__duration">
-        Jun 2019 - Jun 2020
+        June 2022 - March 2023
     </div>
     <ul>
         <li>
-            Wrote UI Kit with react which consisted of highly reusable components which helped my teammates to pick up the pace
-        </li>
-        <li>
-            Wrote several animated components while making sure that they maintain 60 fps
-        </li>
-        <li>
-            Setup a CI/CD pipeline on AWS using elastic beanstalk and github actions which sped up the integration and deployment.
+          Converted design system to reusable components with tools and technologies provided by the company.
         </li>
         <li>
             Designed the project directory structure and introduced coding standards like SOLID design principles and BEM conventions that improved the maintainability of the code and increased the ease of integration
         </li>
         <li>
-            <span>Tools and Technologies : </span> Node.js, Express.js, Redis, React.js, Redux, (S)CSS, MongoDB, GraphQL, AWS
+            <span>Languages, Tools and Technologies : </span> Java, HTML, CSS, JavaScript, BootStrap, Angular, NodeJs, Postgre SQL
         </li>
     </ul>
   `,
@@ -90,7 +84,7 @@ const experiences = [
     </div>
     <ul>
         <li>
-          Converted design system to reusable react components with micro interactions.
+          Converted design system to reusable components with tools and technologies provided by the company.
         </li>
         <li>
             Wrote styles for the same with scss following BEM conventions.
